@@ -220,11 +220,9 @@ hr {
             cursor: pointer;
         }
 
-        .hamburger .line {
-            width: 30px;
-            height: 3px;
-            background-color: black;
-            margin: 6px 0;
+        .hamburger:before {
+           content: "\2630";
+           font-size: 2em;
         }
 
         .nav_bar {
